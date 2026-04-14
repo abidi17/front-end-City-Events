@@ -1,0 +1,85 @@
+/* ===== Wrapper ===== */
+.register-wrapper {
+  min-height: 100vh;
+
+  /* 🔥 نفس background متاع Login */
+  background-image: url("/src/assets/register-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ===== Card ===== */
+.register-card {
+  width: 100%;
+  max-width: 400px;
+
+  background: white;
+  border: none;
+  border-radius: 16px;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.register-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+/* ===== Title ===== */
+.register-card h2 {
+  color: #333;
+  font-weight: 700;
+}
+
+/* ===== Inputs ===== */
+.register-card .form-control,
+.register-card .form-select {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.register-card .form-control:focus,
+.register-card .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+/* ===== Button ===== */
+.btn-register {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-register:hover {
+  opacity: 0.9;
+}
+
+/* ===== Links ===== */
+.register-card a {
+  color: #667eea;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.register-card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+.addevent-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.addevent-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.addevent-card h2 {
+  font-weight: 700;
+  color: #333;
+}
+
+.addevent-card .form-control,
+.addevent-card .form-select {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s;
+}
+
+.addevent-card .form-control:focus,
+.addevent-card .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+.btn-addevent {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  color: white;
+  transition: opacity 0.3s;
+}
+
+.btn-addevent:hover {
+  opacity: 0.9;
+  color: white;
+}
+/* Icons Colors */
+.bi-calendar-plus { color: #667eea; }
+.bi-fonts { color: #11998e; }
+.bi-text-paragraph { color: #f093fb; }
+.bi-grid { color: #f6d365; }
+.bi-calendar { color: #4facfe; }
+.bi-clock { color: #43e97b; }
+.bi-geo-alt { color: #fa709a; }
+.bi-signpost { color: #fd7014; }
+.bi-image { color: #4481eb; }
+.bi-cash { color: #0ba360; }
+.bi-plus-circle { color: white; }

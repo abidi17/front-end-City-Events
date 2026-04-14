@@ -1,0 +1,139 @@
+page-container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/* Footer full width */
+.footer-contact {
+background-image: url("../assets/navbar-bg.jpg") !important;
+color: #ccc;
+padding: 15px 0;
+margin-top: auto;
+}
+
+/* Title */
+.footer-title {
+font-weight: 600;
+margin-bottom: 5px;
+color: rgb(14, 14, 14);
+}
+
+/* Info */
+.footer-info {
+font-size: 13px;
+margin-bottom: 8px;
+}
+
+/* Social icons */
+.socials a {
+color: #050505;
+margin: 0 8px;
+font-size: 18px;
+transition: 0.3s;
+}
+
+/* Hover effects 🔥 */
+.socials a:hover {
+transform: translateY(-2px);
+}
+
+.socials a:nth-child(1):hover { color: #E1306C; } /* Instagram */
+.socials a:nth-child(2):hover { color: #1877F2; } /* Facebook */
+.socials a:nth-child(3):hover { color: #FFFC00; } /* Snapchat */
+     
+
+
+
+
+/* CARD */
+.category-card-pro {
+height: 200px;
+border-radius: 15px;
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden;
+cursor: pointer;
+}
+
+/* IMAGE ZOOM */
+.category-card-pro::before {
+content: "";
+position: absolute;
+inset: 0;
+background: inherit;
+background-size: cover;
+background-position: center;
+transition: transform 0.5s ease;
+z-index: 0;
+}
+
+/* OVERLAY */
+.overlay {
+position: absolute;
+inset: 0;
+background: rgba(0,0,0,0.4);
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.4s;
+z-index: 1;
+}
+
+/* CONTENT (icon + text) */
+.content {
+text-align: center;
+transition: 0.4s;
+}
+
+/* ICON */
+.content .icon {
+font-size: 40px;
+color: white;
+margin-bottom: 8px;
+transition: 0.4s;
+}
+
+/* TEXT */
+.content h5 {
+color: white;
+font-weight: 600;
+transition: 0.4s;
+}
+
+/* 🔥 HOVER EFFECT */
+.category-card-pro:hover::before {
+transform: scale(1.15);
+}
+
+.category-card-pro:hover .overlay {
+background: rgba(0,0,0,0.6);
+}
+
+/* 🔥 ICON + TEXT FOCUS */
+.category-card-pro:hover .content {
+transform: scale(1.2);
+}
+
+.category-card-pro:hover .icon {
+transform: scale(1.3);
+}
+
+.category-card-pro:hover h5 {
+letter-spacing: 1px;
+}
+
+/* BONUS glow 🔥 */
+.category-card-pro:hover h5 {
+text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}   
+
+
+
+
+.category-card-pro {
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}

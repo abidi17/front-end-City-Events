@@ -1,0 +1,90 @@
+/* 🔥 HEADER */
+.events-header {
+height: 260px;
+background-size: cover;
+background-position: center;
+position: relative;
+display: flex;
+align-items: center;
+}
+
+/* overlay */
+.events-header .overlay {
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.55);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* title */
+.events-header h2 {
+color: white;
+font-size: 2.8rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+/* 🖼️ نفس الصور + events concept */
+.events-header.music {
+background-image: url('../assets/music.jpg');
+}
+
+.events-header.sport {
+background-image: url('../assets/sport.jpg');
+}
+
+.events-header.workshop {
+background-image: url('../assets/workshop.jpg');
+}
+
+.events-header.education {
+background-image: url('../assets/education.jpg');
+}
+
+/* fallback */
+.events-header.null {
+background-image: url("../assets/navbar-bg.jpg")
+}
+
+/* 🔍 SEARCH BAR (كبيرة وواضحة) */
+.filter-section {
+margin: 40px 0;
+}
+
+.search-input {
+width: 70%;
+max-width: 600px;
+padding: 16px 25px;
+border-radius: 50px;
+border: none;
+outline: none;
+font-size: 17px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+transition: 0.3s;
+}
+
+/* focus effect */
+.search-input:focus {
+transform: scale(1.05);
+box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ❌ NO EVENTS */
+.no-events {
+text-align: center;
+margin-top: 80px;
+color: #777;
+}
+
+.no-events i {
+font-size: 60px;
+margin-bottom: 10px;
+}
+
+/* ✨ hover header */
+.events-header:hover {
+filter: brightness(1.1);
+transition: 0.3s;
+}

@@ -1,0 +1,70 @@
+.event-card {
+  border: none !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: all 0.3s;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.event-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-card-placeholder {
+  height: 200px;
+  font-size: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.event-card-badge {
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
+.event-card-title {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.event-card-info {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.event-card-price {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #667eea !important;
+}
+
+.btn-details {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  transition: opacity 0.3s;
+}
+
+.btn-details:hover {
+  opacity: 0.9;
+  color: white;
+}
+/* Icons Colors */
+.bi-calendar3 { color: #4facfe; }
+.bi-clock { color: #43e97b; }
+.bi-geo-alt { color: #fa709a; }
+.bi-gift { color: #0ba360; }
+.bi-cash { color: #0ba360; }
+.bi-eye { color: white; }
+.bi-calendar-event { color: white; }

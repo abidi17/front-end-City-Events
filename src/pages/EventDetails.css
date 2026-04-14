@@ -1,0 +1,108 @@
+/* ===== Header Image ===== */
+.event-details-header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 40px;
+}
+
+.event-details-header .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* ===== Card ===== */
+.event-details-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.event-badge {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.event-info p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* ===== Button ===== */
+.btn-reserve {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  color: white;
+}
+
+.btn-reserve:hover {
+  opacity: 0.9;
+}
+
+/* ===== Ratings ===== */
+.ratings-card {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.rating-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.rating-item:last-child {
+  border-bottom: none;
+}
+
+/* ===== Stars ===== */
+.star-rating {
+  font-size: 30px;
+}
+
+.star-rating i {
+  color: #ccc;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+
+.star-rating i.active {
+  color: #ffc107;
+}
+
+.star-rating i:hover {
+  transform: scale(1.2);
+}
+
+/* ===== Form ===== */
+.rating-form-card {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.btn-submit-rating {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+}
+
+.btn-submit-rating:hover {
+  opacity: 0.9;
+}
+
+/* Badge */
+.average-badge {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}

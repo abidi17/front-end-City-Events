@@ -1,0 +1,139 @@
+/* ================= HEADER ================= */
+.dashboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-header p {
+  opacity: 0.85;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dashboard-header i {
+  color: #121211;
+  font-size: 1.3rem;
+}
+
+/* ================= BOOKINGS CARD ================= */
+.bookings-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9ff);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eef0f6;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.bookings-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.bookings-card h4 {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bookings-card h4 i {
+  color: #667eea;
+  font-size: 1.3rem;
+}
+
+/* ================= ITEM ================= */
+.booking-item {
+  border: 1px solid #f0f0f0 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  margin-bottom: 10px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.booking-item:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.booking-item h5 {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.booking-item p {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ================= ICON COLORS ================= */
+.booking-item .bi-calendar3 {
+  color: #4dabf7;
+}
+
+.booking-item .bi-geo-alt {
+  color: #ff6b6b;
+}
+
+.booking-item .bi-cash {
+  color: #51cf66;
+}
+
+.booking-item .bi-clock {
+  color: #ffd43b;
+}
+
+/* ================= STATUS ================= */
+.status-badge {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* ================= EMPTY ================= */
+.no-bookings {
+  text-align: center;
+  padding: 50px 0;
+  color: #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.no-bookings i {
+  font-size: 4rem;
+  color: #adb5bd;
+  opacity: 0.6;
+}
+
+/* ================= ICON ANIMATION ================= */
+i {
+  transition: all 0.2s ease;
+}
+
+i:hover {
+  transform: scale(1.15);
+}
