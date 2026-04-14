@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'srv-d7f5m8bbc2fs738hmrgg/api'
 });
 
 // Automatically increase the token in each request
