@@ -1,8 +1,10 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'srv-d7f5m8bbc2fs738hmrgg/api'
+  baseURL: 'https://back-end-city-events.onrender.com/api'
 });
+
+
 
 // Automatically increase the token in each request
 API.interceptors.request.use((config) => {
